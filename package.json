@@ -1,0 +1,26 @@
+{
+  "name": "xrpl_client_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@axelar-network/axelarjs-sdk": "^0.16.2",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "axios": "^1.7.6",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "express": "^4.19.2",
+    "i": "^0.3.7",
+    "npm": "^10.8.3",
+    "viem": "^2.21.0",
+    "xrpl": "^4.0.0",
+    "xumm-sdk": "^1.11.1"
+  }
+}
